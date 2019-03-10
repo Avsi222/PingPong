@@ -17,8 +17,8 @@
 @interface GameViewController : UIViewController
 
 
-@property (strong, nonatomic) UIImageView *paddleTop;
-@property (strong, nonatomic) UIImageView *paddleBottom;
+@property (strong, nonatomic) UIView *paddleTop;
+@property (strong, nonatomic) UIView *paddleBottom;
 @property (strong, nonatomic) UIView *gridView;
 @property (strong, nonatomic) UIView *ball;
 @property (strong, nonatomic) UITouch *topTouch;
