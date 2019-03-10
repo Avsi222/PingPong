@@ -12,7 +12,7 @@
 #define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
 #define HALF_SCREEN_WIDTH SCREEN_WIDTH/2
 #define HALF_SCREEN_HEIGHT SCREEN_HEIGHT/2
-#define MAX_SCORE 6
+#define MAX_SCORE 5
 
 @interface GameViewController : UIViewController
 
